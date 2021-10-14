@@ -46,22 +46,22 @@ body {
 }
 
 .col_center {
-    height: 20em;
+    height: 30em;
     width: 44%;
-    background-color: rgb(171,207,231);
     margin: 2em;
 }
 
 .col_left, .col_right {
-    height: 20em;
+    height: 30em;
     width: calc(28% - 2em);
-    background-color: rgb(171,207,231);
     margin-bottom: 2em;
     margin-top: 2em
 }
 
 [class*="col_"] {
     float: left;
+    background-color: rgb(171,207,231);
+
 }
 
 .footer {
